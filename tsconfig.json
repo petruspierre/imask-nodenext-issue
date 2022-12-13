@@ -3,7 +3,8 @@
     "pretty": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "NodeNext",
+    // "moduleResolution": "NodeNext", // Uncomment this line -> will trigger the error in the index.ts file
+    "moduleResolution": "node", // Comment this line -> will not trigger the error in the index.ts file
     "importHelpers": true,
     "allowJs": true,
     "experimentalDecorators": true,
