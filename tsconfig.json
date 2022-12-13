@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "importHelpers": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "outDir": "dist/build",
+    "baseUrl": "./src",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "include": [
+      "src"
+    ]
+  }
+}
